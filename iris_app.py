@@ -44,7 +44,7 @@ pickle.dump(clf, open("rf_model.sav", 'wb'))
 
 ## ******************* THE web APP ************************
 # title and description:
-st.title('Classifying Iris Flowers by Joel')
+st.title('Classifying Iris Flowers by Joel for Azure')
 st.markdown('Toy model to play with the iris flowers dataset and classify the three Species into \
      (setosa, versicolor, virginica) based on their sepal/petal \
     and length/width.')
